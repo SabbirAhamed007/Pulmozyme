@@ -1,0 +1,74 @@
+[
+  {
+    "source": "^Choose not first time pulmozyme user$",
+    "steps": [
+      {
+        "name": "Choose not first time pulmozyme user",
+        "aggregatedDurations": {
+          "average": 0.4507004,
+          "median": 0.4507004
+        },
+        "durations": [
+          {
+            "duration": 0.4507004,
+            "location": "Copay_LAP.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I open Pulmozyme site to enrolled$",
+    "steps": [
+      {
+        "name": "I open Pulmozyme site to enrolled",
+        "aggregatedDurations": {
+          "average": 11.4144481,
+          "median": 11.4144481
+        },
+        "durations": [
+          {
+            "duration": 11.4144481,
+            "location": "Copay_LAP.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on LAP$",
+    "steps": [
+      {
+        "name": "Click on LAP",
+        "aggregatedDurations": {
+          "average": 0.3364687,
+          "median": 0.3364687
+        },
+        "durations": [
+          {
+            "duration": 0.3364687,
+            "location": "Copay_LAP.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^select apply now$",
+    "steps": [
+      {
+        "name": "select apply now",
+        "aggregatedDurations": {
+          "average": 0.3809118,
+          "median": 0.3809118
+        },
+        "durations": [
+          {
+            "duration": 0.3809118,
+            "location": "Copay_LAP.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

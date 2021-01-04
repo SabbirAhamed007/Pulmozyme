@@ -1,0 +1,43 @@
+Feature: Test Copay LAP enrollment feature
+
+  @tag3
+  Scenario: LAP Copay enrollment scenario    [90m# Copay_LAP.feature:4[0m
+    [32mGiven [0m[32mI open Pulmozyme site to enrolled[0m  [90m# Copay_LAPTest.i_open_Pulmozyme_site_to_enrolled()[0m
+    [32mAnd [0m[32mselect apply now[0m                     [90m# Copay_LAPTest.select_apply_now()[0m
+    [32mAnd [0m[32mClick on LAP[0m                         [90m# Copay_LAPTest.click_on_LAP()[0m
+    [32mAnd [0m[32mChoose not first time pulmozyme user[0m [90m# Copay_LAPTest.choose_not_first_time_pulmozyme_user()[0m
+    [31mWhen [0m[31mI complete eligibility QN[0m           [90m# Copay_LAPTest.i_complete_eligibility_QN()[0m
+      [31morg.openqa.selenium.WebDriverException: unknown error: Element <span class="checkmark"></span> is not clickable at point (522, 912). Other element would receive the click: <div class="onetrust-pc-dark-filter fade-in" style="z-index:2147483645"></div>
+        (Session info: chrome=81.0.4044.138)
+        (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 0 milliseconds
+      Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+      System info: host: 'DESKTOP-C3UG4MO', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\ubox0\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.138, webStorageEnabled: true}
+      Session ID: 50c5739b0e79a170b886ca2e4117b4bb
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+      	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+      	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+      	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+      	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+      	at sTEPDefinatioN.Copay_LAPTest.i_complete_eligibility_QN(Copay_LAPTest.java:75)
+      	at ✽.When I complete eligibility QN(Copay_LAP.feature:9)
+      [0m
+    [36mAnd [0m[36mI fill up LAP info[0m                   [90m# Copay_LAPTest.i_fill_up_LAP_info()[0m
+    [36mAnd [0m[36mI fill up Patient info[0m               [90m# Copay_LAPTest.i_fill_up_Patient_info()[0m
+    [36mAnd [0m[36mselect USPS[0m                          [90m# Copay_LAPTest.select_USPS()[0m
+    [36mThen [0m[36mI fill up login info[0m                [90m# Copay_LAPTest.i_fill_up_login_info()[0m
+    [36mAnd [0m[36mI fill up doctor info[0m                [90m# Copay_LAPTest.i_fill_up_doctor_info()[0m
+    [36mAnd [0m[36mI confirm the info[0m                   [90m# Copay_LAPTest.i_confirm_the_info()[0m
+    [36mAnd [0m[36mI select the check box[0m               [90m# Copay_LAPTest.i_select_the_check_box()[0m
+    [36mAnd [0m[36mclick on confirm button[0m              [90m# Copay_LAPTest.click_on_confirm_button()[0m
